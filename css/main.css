@@ -30,18 +30,18 @@ ul {
 .item {
   font-family: sans-serif;
   color: #fff;
-  max-width: 20vw;
+  max-width: 15vw;
 }
 
 .item__title {
   display: block;
-  margin-bottom: 1vw;
-  font-size: 4.2vw;
+  margin-bottom: 0.1em;
+  font-size: 4vw;
   text-align: center;
 }
 
 .item__description {
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   text-align: center;
   line-height: 1.7;
   letter-spacing: 0.03vw;
@@ -50,6 +50,38 @@ ul {
 .item--first {
   position: absolute;
   top: calc(var(--max-width)*0.135);
-  left: calc(var(--max-width)*0.14);
+  left: calc(var(--max-width)*0.17);
+}
+
+.item--second {
+  position: absolute;
+  top: calc(var(--max-width)*0.135);
+  right: calc(var(--max-width)*0.22);
+}
+
+.item--third {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-51%, -41%);
+          transform: translate(-51%, -41%);
+}
+
+.item--fourth {
+  position: absolute;
+  bottom: calc(var(--max-width)*0.25);
+  left: calc(var(--max-width)*0.09);
+}
+
+.item--fifth {
+  position: absolute;
+  bottom: calc(var(--max-width)*0.08);
+  left: calc(var(--max-width)*0.39);
+}
+
+.item--six {
+  position: absolute;
+  bottom: calc(var(--max-width)*0.25);
+  right: calc(var(--max-width)*0.08);
 }
 /*# sourceMappingURL=main.css.map */
